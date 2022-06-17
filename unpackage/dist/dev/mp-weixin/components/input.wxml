@@ -1,0 +1,1 @@
+<view class="input-view"><uni-icons class="input-uni-icon" vue-id="7df26647-1" type="search" size="18" color="#999" bind:__l="__l"></uni-icons><input class="nav-bar-input" confirm-type="search" type="text" placeholder="{{text}}" disabled="{{true}}" data-event-opts="{{[['tap',[['toSearch',['$event']]]]]}}" bindtap="__e"/></view>

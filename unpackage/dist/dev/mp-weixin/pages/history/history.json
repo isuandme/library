@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "历史浏览",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "book-card": "/components/book-card"
+  }
+}

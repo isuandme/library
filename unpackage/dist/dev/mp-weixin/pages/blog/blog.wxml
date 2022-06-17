@@ -1,0 +1,1 @@
+<view class="blog_page_wrap"><block wx:for="{{blogList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><blog-card vue-id="{{'07e38100-1-'+index}}" blogInfo="{{item}}" bind:__l="__l"></blog-card></view></block><view class="tip">没有更多了</view></view>

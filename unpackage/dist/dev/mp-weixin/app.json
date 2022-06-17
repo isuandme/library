@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/forum/forum",
+    "pages/personal/personal",
+    "pages/subscribe/subscribe",
+    "pages/search/search",
+    "pages/book_detail/book_detail",
+    "pages/login/login",
+    "pages/search_content/search_content",
+    "pages/recommend/recommend",
+    "pages/idea/idea",
+    "pages/returnBook/returnBook",
+    "pages/write/write",
+    "pages/member/member",
+    "pages/bookshelf/bookshelf",
+    "pages/record/record",
+    "pages/history/history",
+    "pages/subscription/subscription",
+    "pages/personal_home/personal_home",
+    "pages/news/news",
+    "pages/thumbUp/thumbUp",
+    "pages/comments/comments",
+    "pages/aite/aite",
+    "pages/myFollows/myFollows",
+    "pages/Myfans/Myfans",
+    "pages/always_scan/always_scan",
+    "pages/blog/blog"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#FEB010",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "static/icon/home.png",
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "static/icon/home1.png"
+      },
+      {
+        "text": "分类",
+        "iconPath": "static/icon/category.png",
+        "pagePath": "pages/category/category",
+        "selectedIconPath": "static/icon/category1.png"
+      },
+      {
+        "text": "论坛",
+        "iconPath": "static/icon/fornum.png",
+        "pagePath": "pages/forum/forum",
+        "selectedIconPath": "static/icon/fornum1.png"
+      },
+      {
+        "text": "我的",
+        "iconPath": "static/icon/personal.png",
+        "pagePath": "pages/personal/personal",
+        "selectedIconPath": "static/icon/personal1.png"
+      }
+    ],
+    "midButton": {
+      "text": "预约",
+      "iconPath": "static/icon/add4.png",
+      "height": "67px",
+      "iconWidth": "44px"
+    }
+  },
+  "usingComponents": {
+    "tab-bar": "/components/tabbar"
+  },
+  "sitemapLocation": "sitemap.json"
+}

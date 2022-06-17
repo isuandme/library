@@ -1,0 +1,1 @@
+<view class="thumbUp"><view class="thumb_wrap"><block wx:for="{{newslists}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><news-card vue-id="{{'de5835c8-1-'+index}}" news="{{item}}" bind:__l="__l"></news-card></view></block></view></view>

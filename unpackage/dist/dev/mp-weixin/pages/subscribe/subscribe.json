@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "预约",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#06ac67",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
+    "u-tag": "/uni_modules/uview-ui/components/u-tag/u-tag",
+    "u-picker": "/uni_modules/uview-ui/components/u-picker/u-picker",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal"
+  }
+}

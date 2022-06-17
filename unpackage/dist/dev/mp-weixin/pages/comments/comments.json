@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "评论",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "news-card": "/components/news_card"
+  }
+}

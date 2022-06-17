@@ -1,0 +1,1 @@
+<view class="comments_page"><block wx:for="{{newslists}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><news-card vue-id="{{'12c898c0-1-'+index}}" news="{{item}}" bind:__l="__l"></news-card></view></block></view>

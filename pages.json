@@ -1,0 +1,367 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				
+			}
+			
+		}
+	    ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "书籍分类",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/forum/forum",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "论坛",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/personal/personal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/subscribe/subscribe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#06ac67",
+				"navigationBarTextStyle":"white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/book_detail/book_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "书籍详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#ffae50",
+				"navigationBarTextStyle":"white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/search_content/search_content",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索结果",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/recommend/recommend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/idea/idea",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/returnBook/returnBook",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "自助还书",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#8dc6da",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/write/write",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/member/member",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "会员中心",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+				// "navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/bookshelf/bookshelf",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的书架",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/record/record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的记录",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/history/history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "历史浏览",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/subscription/subscription",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订阅",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/personal_home/personal_home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人主页",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的消息",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#ffc175",
+				"navigationBarTextStyle":"white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/thumbUp/thumbUp",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "赞",
+                "enablePullDownRefresh": false,	
+				"navigationBarBackgroundColor":"#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/comments/comments",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评论",
+                "enablePullDownRefresh": false,	
+				"navigationBarBackgroundColor":"#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/aite/aite",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提到我的",
+                "enablePullDownRefresh": false,	
+				"navigationBarBackgroundColor":"#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/myFollows/myFollows",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的关注",
+                "enablePullDownRefresh": false,	
+				"navigationBarBackgroundColor":"#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Myfans/Myfans",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的粉丝",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/always_scan/always_scan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "经常浏览",
+                "enablePullDownRefresh": false,	
+				"navigationBarBackgroundColor":"#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/blog/blog",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "帖子",
+                "enablePullDownRefresh": false,	
+				"navigationBarBackgroundColor":"#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/checkMoreComments/checkMoreComments",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评价",
+                "enablePullDownRefresh": false,	
+				"navigationBarBackgroundColor":"#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/overdue/overdue",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "逾期记录",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#FEB010",
+		"backgroundColor": "#ffffff",
+		// "custom":true,
+		"list": [
+			{
+				"text": "首页",
+				"iconPath": "static/icon/home.png",
+				"pagePath": "pages/index/index",
+				"selectedIconPath": "static/icon/home1.png"
+			},
+			{
+				"text": "分类",
+				"iconPath": "static/icon/category.png",
+				"pagePath": "pages/category/category",
+				"selectedIconPath": "static/icon/category1.png"
+			},
+			{
+				"text": "论坛",
+				"iconPath": "static/icon/fornum.png",
+				"pagePath": "pages/forum/forum",
+				"selectedIconPath": "static/icon/fornum1.png"
+			},
+			{
+				"text": "我的",
+				"iconPath": "static/icon/personal.png",
+				"pagePath": "pages/personal/personal",
+				"selectedIconPath": "static/icon/personal1.png"
+			}
+		],
+		"midButton": {
+			"text": "预约",
+			"iconPath": "static/icon/add4.png",
+			"height":"67px",
+			"iconWidth":"44px"
+			// "width": "50px",
+			// "backgroundImage": "./static/icon/bgci.png"
+		}
+	}
+}

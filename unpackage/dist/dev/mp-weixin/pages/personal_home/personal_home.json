@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "个人主页",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "u-album": "/uni_modules/uview-ui/components/u-album/u-album",
+    "info-bar": "/components/infoBar",
+    "book-shelf": "/components/bookshelf",
+    "my-input": "/components/input"
+  }
+}

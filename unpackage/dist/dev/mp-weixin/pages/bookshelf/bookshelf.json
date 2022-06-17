@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的书架",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "book-card": "/components/book-card"
+  }
+}
